@@ -1,0 +1,99 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: rgb(133, 165, 235);
+  width: 100vh;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  width:100%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0px 4px 10px blue;
+}
+.input-container{
+  background-color: white;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border: 2px solid rgb(0, 10, 10);
+  border-radius: 5px;
+}
+.city{
+  flex: 1;
+  height: 25px;
+  border: none;
+  padding: 5px;
+  font-size: 15px;
+  outline: none;
+ 
+}
+.search-icon img{
+  margin-top: 10px;
+}
+.search-icon{
+  cursor: pointer;
+}
+
+/*weather----------------------------------------*/
+.images{
+  
+  text-align: center;
+  margin-bottom: 10px;
+}
+.temp,.location,.country{
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.temp{
+  font-weight:500;
+}
+.location{
+  color: blue;
+  font-weight: 400;
+  font-size: 30px;
+}
+.country{
+  font-size: 16px;
+  font-weight: 500;
+}
+.coordinate{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.coordinate  div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  
+}
+.coordinate div span{
+  font-size: 14px;
+}
+.data{
+display: flex;
+justify-content: center;
+justify-content: space-between;
+margin-top: 20px;
+}
+.element{
+  text-align: center;
+}
+.loading-msg,.error-msg,.city-not-found{
+  margin-top: 10px;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+}
